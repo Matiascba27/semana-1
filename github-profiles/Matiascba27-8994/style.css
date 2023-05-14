@@ -25,7 +25,7 @@ body {
     text-align: center;
     margin: 1em auto;
     border-radius: 10px;
-    color: #89bcda;
+    color: #ffffff;
     box-shadow: 5px 5px 5px #0051ff;
     max-width: 50em;
     font-family: 'Outfit', sans-serif;
@@ -63,6 +63,17 @@ body {
     font-size: 1.2em;
     font-weight:400;
     font-family: 'Outfit', sans-serif;
+    line-height: 2em;
+    
+}
+
+.paragraph__link:hover{
+    background-color: darkorange;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    padding: .1em;
 }
 
 .section_paragraph a{
@@ -119,7 +130,9 @@ th, td{
 
 
 
-footer{
+.footer{
     margin-top: 1em;
     padding: 1em;
 }
+
+
